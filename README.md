@@ -59,7 +59,7 @@ valor máximo ou mínimo, etc).
 
 * Este projeto deve ser realizado em duplas.
 * O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
-* O tempo estimado que você deve dedicar à [geração de dados](###geração-dos-datos)
+* O tempo estimado que você deve dedicar à [geração de dados](#geração-dos-dados)
   é de no máximo dois dias. Além disso, no final do projeto, você deve
   apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
 * Se perceber que vai demorar mais tempo,
@@ -304,7 +304,7 @@ Pelo menos uma função é obrigatória:
   os elementos de cada item e deve retornar um elemento DOM ou
   uma string de HTML.
 
-## 6. Critérios mínimos de aceitação do projeto
+## 6. Critérios de aceitação mínimos do projeto
 
 ### Critérios de código
 
@@ -847,7 +847,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 ### Primeiros Passos
 
 Junte-se ao canal Slack
-[#project-dataverse](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+[#project-dataverse-pt](https://claseslaboratoria.slack.com/archives/C06BA7468AU)
 para conversar e pedir ajuda no projeto.
 
 Antes de começar a escrever código, você deve definir o que o
