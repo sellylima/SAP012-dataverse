@@ -19,7 +19,7 @@
 
 Segundo a [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
 90% dos dados existentes hoje foram criados nos últimos dois anos.
-A cada dia, geramos 2,5 milhões de terabytes de dados, um número sem
+A cada dia, geramos 2,5 milhões de terabytes de dados, um número sem©
 precedentes.
 
 No entanto, os dados por si só têm pouca utilidade. Para que essas grandes
@@ -59,7 +59,7 @@ valor máximo ou mínimo, etc).
 
 * Este projeto deve ser realizado em duplas.
 * O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
-* O tempo estimado que você deve dedicar à [geração de dados](#gerar-los-datos)
+* O tempo estimado que você deve dedicar à [geração de dados](###geração-dos-datos)
   é de no máximo dois dias. Além disso, no final do projeto, você deve
   apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
 * Se perceber que vai demorar mais tempo,
@@ -546,7 +546,7 @@ A data gerada deve ser substituída pelo conteúdo deste arquivo:
 `./src/data/dataset.js`.
 
 **O tempo estimado que você deveria dedicar à geração desses
-dados é de no máximo uma sprint.** Se após uma sprint você não
+dados é de no máximo dois dias.** Se após esse tempo você não
 tiver um conjunto de dados gerados, deverá usar os dados de exemplo
 localizados em:
 `./src/data/dataset.js`.
