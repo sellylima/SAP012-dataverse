@@ -5,7 +5,46 @@
     <title>Dataverse</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+
+  <header>
+    <!--imagem do topo / logo / nome da pagina-->
+    <h1>imagem do topo / logo /nome da pagina</h1>
+    <h2>inrodução ao conteúdo do site</h2>
+  </header>
+
+  <body> 
+    <!--imagem do topo / logo / nome da pagina-->
+
+      <div class="filtros">
+      <!--criar filtros-->
+        <select data-testid="select-sort" name="Selecione" id="escolhaNacionalidade"></select>
+        <option value="brasileira">Brasileira</option>
+        <option value="norteAmericara">Norte-Americana</option>
+        </select>
+      <!--repetir o exemplo para os outro filtros-->
+
+      </div>
+
+      <!--sessão para ordenação-->
+      <section id="ordem">
+        <!--<label for="ordenar"></label>-->
+        <select data-testid="select-sort" name ="Ordenar" id="nomeDaCelebridade"></select>
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </section>
+      
+      <!--criar botão de limpar-->
+      <button data-testid="limpar">Limpar</button>
+
+      <!--<section id="root">
+      os cartões em <li></li> vão aqui 
+      </section>-->
+     
+    </main>
+    <img src="images/dinosaur.jpg" alt="Curiosidades sobre..."/>
+
     <script src="main.js" type="module"></script>
   </body>
+
+  <footer>Criado por <strong>Bia Carneiro</strong> e <strong>Selly Lima</strong>.</footer>
 </html>
