@@ -17,22 +17,49 @@
 
       <div class="filtros">
       <!--criar filtros-->
-        <select data-testid="select-sort" name="Selecione" id="escolhaNacionalidade"></select>
-        <option value="brasileira">Brasileira</option>
-        <option value="norteAmericara">Norte-Americana</option>
+        <select data-testid="select-sort" name="Selecione" id="escolhaNacionalidade">
+          <option value="brasileira">Brasileira</option>
+          <option value="norteAmericana">Norte-Americana</option>
+          <option value="sulafricana">Sul-Africana</option>
+          <option value="barbadiana">Barbadiana</option>
+          <option value="suíça">Suíça</option>
+          <option value="britânica">Britânica</option>
+          <option value="brasileira">Brasileira</option>
+          <option value="portuguesa">Portuguesa</option>
+          <option value="colombiana">Colombiana</option>
+          <option value="paquistanesa">Paquistanesa</option>
+        </select>
+
+        <select data-testid="select-sort" name="Selecione" id="areaDeAtuação">
+          <option value="musica">Música</option>
+          <option value="esportes">Esportes</option>
+          <option value="cinema">Cinema</option>
+          <option value="norteAmericara">Moda</option>
+          <option value="brasileira">Cultura Pop</option>
+          <option value="norteAmericara">Ativismo</option>
+          <option value="brasileira">Ciências e Tecnologia</option>
+        </select>
+
+        <select data-testid="select-sort" name="Selecione" id="curiosidade">
+          <option value="pessoal">Vida Pessoal</option>
+          <option value="profissional">Vida Profissional</option>
         </select>
       <!--repetir o exemplo para os outro filtros-->
 
-      </div>
+      
 
-      <!--sessão para ordenação-->
-      <section id="ordem">
+        <!--sessão para ordenação-->
+        <!--<section id="ordem">-->
         <!--<label for="ordenar"></label>-->
-        <select data-testid="select-sort" name ="Ordenar" id="nomeDaCelebridade"></select>
+        <select data-testid="select-sort" name ="Ordenar" id="nomeDaCelebridade">
         <option value="asc">A - Z</option>
         <option value="desc">Z - A</option>
-      </section>
-      
+        </select>
+
+      <!--</section>-->
+
+      </div>  <!--para os cards-->
+
       <!--criar botão de limpar-->
       <button data-testid="limpar">Limpar</button>
 
@@ -40,7 +67,7 @@
       os cartões em <li></li> vão aqui 
       </section>-->
      
-    </main>
+   
     <img src="images/dinosaur.jpg" alt="Curiosidades sobre..."/>
 
     <script src="main.js" type="module"></script>
