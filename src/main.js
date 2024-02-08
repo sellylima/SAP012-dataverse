@@ -1,3 +1,9 @@
+/*Recomendamos usar `src/main.js` para todo o seu código relacionado à exibição dos dados na tela.
+Basicamente, nos referimos à interação com o DOM. Operações como criação de nós, registro de 
+manipuladores de eventos (*event listeners* ou *event handlers*).
+Neste arquivo, você encontrará uma série de *imports* prontos para *carregar* as diferentes fontes
+de dados.*/
+
 import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
