@@ -9,5 +9,8 @@ padding: 0;
     --color-azul: 054A91;
 }
 
-
+header {
+    width: 100%;
+    color: var(--color-amarelo);
+}
 
