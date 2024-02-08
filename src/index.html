@@ -2,22 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Dataverse</title>
+    <title>Dataverse - Celebridades</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <header>
     <!--imagem do topo / logo / nome da pagina-->
     <h1>imagem do topo / logo /nome da pagina</h1>
-    <h2>inrodução ao conteúdo do site</h2>
   </header>
 
   <body> 
     <!--imagem do topo / logo / nome da pagina-->
+    <h2>(inrodução ao conteúdo do site)
+      Vida Profissiona e Pessoal</h2>
 
-      <div class="filtros">
+      <div class="filtrosEbotão">
       <!--criar filtros-->
         <select data-testid="select-sort" name="Selecione" id="escolhaNacionalidade">
+          <option value="vazio">Selecione</option>
+          <option value="vazio">Selecione</option>
           <option value="brasileira">Brasileira</option>
           <option value="norteAmericana">Norte-Americana</option>
           <option value="sulafricana">Sul-Africana</option>
@@ -31,6 +34,8 @@
         </select>
 
         <select data-testid="select-sort" name="Selecione" id="areaDeAtuação">
+          <option value="vazio">Selecione</option>
+          <option value="vazio">Selecione</option>
           <option value="musica">Música</option>
           <option value="esportes">Esportes</option>
           <option value="cinema">Cinema</option>
@@ -41,6 +46,7 @@
         </select>
 
         <select data-testid="select-sort" name="Selecione" id="curiosidade">
+          <option value="vazio">Selecione</option>
           <option value="pessoal">Vida Pessoal</option>
           <option value="profissional">Vida Profissional</option>
         </select>
@@ -52,23 +58,29 @@
         <!--<section id="ordem">-->
         <!--<label for="ordenar"></label>-->
         <select data-testid="select-sort" name ="Ordenar" id="nomeDaCelebridade">
-        <option value="asc">A - Z</option>
-        <option value="desc">Z - A</option>
+          <option value="vazio">Selecione</option>
+         <option value="asc">A - Z</option>
+         <option value="desc">Z - A</option>
         </select>
 
       <!--</section>-->
 
-      </div>  <!--para os cards-->
 
       <!--criar botão de limpar-->
       <button data-testid="limpar">Limpar</button>
+
+      </div>  
+      
+      
+      <!--para os cards-->
 
       <!--<section id="root">
       os cartões em <li></li> vão aqui 
       </section>-->
      
    
-    <img src="images/dinosaur.jpg" alt="Curiosidades sobre..."/>
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fproxy.olhardigital.com.br%2Fwp-content%2Fuploads%2F2023%2F07%2FNuvens-1.jpg&tbnid=jzo2i7BTW5dTdM&vet=12ahUKEwiUx4WmopqEAxUeM7kGHR9IAdAQMygAegQIARBn..i&imgrefurl=https%3A%2F%2Folhardigital.com.br%2F2023%2F07%2F28%2Fciencia-e-espaco%2Fvoce-sabia-que-as-nuvens-nao-estao-flutuando-no-ceu%2F&docid=2UYsLaBsqVH9VM&w=1400&h=934&q=nuvem%20ceu&ved=2ahUKEwiUx4WmopqEAxUeM7kGHR9IAdAQMygAegQIARBn"
+    alt="Texto alternativo da imagem"/>
 
     <script src="main.js" type="module"></script>
   </body>
