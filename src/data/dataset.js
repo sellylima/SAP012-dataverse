@@ -350,6 +350,7 @@ export default [
 ];
 
   /*
+[
   {
     "id": "ada-lovelace",
     "name": "Ada Lovelace",
