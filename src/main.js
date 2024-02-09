@@ -6,16 +6,31 @@ de dados.*/
 
 import { example } from './dataFunctions.js';
 
-//botão de limpar 
-const limpaFiltros = document.querySelector('[data-testid="limpar"]');
-limpar.addEventListener('click', () => {
-    filtros.value = '';
-    //identificar "filtros"
-});
-
-
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
 console.log(example, renderItems(data), data);
+
+
+
+
+ //botão de limpar  - escuta e limpa
+const limpaFiltros = document.querySelector('[data-testid="limpar"]');
+limpaFiltros.addEventListener('click', () => {
+    // Limpar todos os elementos <select>
+    document.querySelectorAll('select').forEach(select => {
+        select.value = '';
+    });
+});
+
+//filtro areaDeAtuação - escuta mudanças e revela o valor
+const selecionaElemento = document.getElementById('areaDeAtuação');
+selecionaElemento.addEventListener('change', function (event) {
+    // Obtém o valor selecionado
+    const valorSelecionado = event.target.value;
+});
+
+const root = document.querySelector("#root")
+console.log(root)
+root.interHTML = renderItems(data)

@@ -13,12 +13,12 @@
 
   <body> 
     <!--imagem do topo / logo / nome da pagina-->
-    <h2>(inrodução ao conteúdo do site)
+    <h2>(inrodução ao conteúdo do site)<br>
       Vida Profissiona e Pessoal</h2>
 
-      <div class="filtrosEbotão">
-      <!--criar filtros-->
-        <select data-testid="select-sort" name="Selecione" id="escolhaNacionalidade">
+      <section class="conjuntoFiltros">
+        <!--criar filtros-->
+        <select data-testid="select-sort" name="Nacionalidade" id="escolhaNacionalidade">
           <option value="vazio">Selecione</option>
           <option value="brasileira">Brasileira</option>
           <option value="norteAmericana">Norte-Americana</option>
@@ -32,7 +32,7 @@
           <option value="paquistanesa">Paquistanesa</option>
         </select>
 
-        <select data-testid="select-sort" name="Selecione" id="areaDeAtuação">
+        <select data-testid="select-sort" name="Área de Atuação" id="areaDeAtuação">
           <option value="vazio">Selecione</option>
           <option value="vazio">Selecione</option>
           <option value="musica">Música</option>
@@ -44,31 +44,26 @@
           <option value="brasileira">Ciências e Tecnologia</option>
         </select>
 
-        <select data-testid="select-sort" name="Selecione" id="curiosidade">
+        <select data-testid="select-sort" name="Vida" id="pessprof">
           <option value="vazio">Selecione</option>
           <option value="pessoal">Vida Pessoal</option>
           <option value="profissional">Vida Profissional</option>
         </select>
-      <!--repetir o exemplo para os outro filtros-->
-
+        <!--repetir o exemplo para os outro filtros-->
       
-
-        <!--sessão para ordenação-->
-        <!--<section id="ordem">-->
-        <!--<label for="ordenar"></label>-->
         <select data-testid="select-sort" name ="Ordenar" id="nomeDaCelebridade">
-          <option value="vazio">Selecione</option>
+         <option value="vazio">Selecione</option>
          <option value="asc">A - Z</option>
          <option value="desc">Z - A</option>
         </select>
 
-      <!--</section>-->
+      </section>
 
-
+    
       <!--criar botão de limpar-->
       <button data-testid="limpar">Limpar</button>
 
-      </div>  
+       
       
       
       <!--para os cards-->
