@@ -5,6 +5,15 @@ Neste arquivo, você encontrará uma série de *imports* prontos para *carreg
 de dados.*/
 
 import { example } from './dataFunctions.js';
+
+//botão de limpar 
+const limpaFiltros = document.querySelector('[data-testid="limpar"]');
+limpar.addEventListener('click', () => {
+    filtros.value = '';
+    //identificar "filtros"
+});
+
+
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
