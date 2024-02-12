@@ -1,30 +1,19 @@
 export const renderItems = (data) => {
-    console.log(data)
+  //console.log(data)
 
-    // Aquí comienza tu código y puedes retornar lo que tu necesites
-    /*let result = '<ul>'
-      data.array.forEach(element => {
-        result += `
-    <li>
-    <p>${elemento.name}</p>
-    </li>
-    `
-      });
-    result = result + '</ul>'
-
-  return 'result';
-  */
+  // Aquí comienza tu código y puedes retornar lo que tu necesites
   let result = '<ul>'
   data.forEach(element => {
-  result += `
+    result += `
     <li>
     <p>${element.name}</p>
     <img src= ${element.imageUrl} alt= "">
     <p>${element.description}</p> 
-    </li>
+    </li>n
     `
-  });
-
-  result = result + '</ul>'
+  })
+  result = result + '</ul>';
 
   return result;
+};
+
