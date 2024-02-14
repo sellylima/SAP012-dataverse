@@ -1,8 +1,8 @@
-//nomeio essa propriedade?
+//nomeio?
 export default [
   {
     "id": "anitta",
-    "nome": "Anitta",
+    "name": "Anitta",
     "shortDescription": "Cantora e compositora brasileira, sucesso internacional com hits como 'Downtown'.",
     "description": "Anitta é uma cantora e compositora brasileira que ganhou destaque internacional com seu estilo único e energético. Ela é conhecida por hits como 'Downtown' e 'Vai Malandra', além de ser uma defensora dos direitos LGBTQ+.",
     "imageUrl": "",
@@ -17,7 +17,7 @@ export default [
   },
   {
     "id": "scarlett-johansson",
-    "nome": "Scarlett Johansson",
+    "name": "Scarlett Johansson",
     "shortDescription": "Atriz conhecida por papéis em filmes como 'Lost in Translation' e 'Avengers'.",
     "description": "Scarlett Johansson é uma aclamada atriz americana conhecida por sua versatilidade e presença cativante na tela. Ela ganhou reconhecimento por papéis em filmes como 'Lost in Translation' e 'Avengers', além de ser uma ativista pelos direitos das mulheres em Hollywood.",
     "imageUrl": "",
@@ -32,7 +32,7 @@ export default [
   },
   {
     "id": "bts",
-    "nome": "BTS",
+    "name": "BTS",
     "shortDescription": "Grupo de K-pop internacionalmente aclamado.",
     "description": "BTS é um grupo de K-pop sul-coreano que alcançou sucesso global com seu talento musical e carisma. Eles são reconhecidos por suas coreografias elaboradas, letras significativas e grande presença nas redes sociais, interagindo diretamente com os fãs.",
     "imageUrl": "",
@@ -47,7 +47,7 @@ export default [
   },
   {
     "id": "elon-musk",
-    "nome": "Elon Musk",
+    "name": "Elon Musk",
     "shortDescription": "Empresário e visionário, CEO da Tesla e SpaceX.",
     "description": "Elon Musk é um empresário sul-africano-americano conhecido por sua visão inovadora e empreendedora. Ele é o CEO da Tesla, SpaceX e outras empresas, e é uma figura central em avanços tecnológicos, incluindo exploração espacial e veículos elétricos.",
     "imageUrl": "",
@@ -62,7 +62,7 @@ export default [
   },
   {
     "id": "rihanna",
-    "nome": "Rihanna",
+    "name": "Rihanna",
     "shortDescription": "Cantora, empresária de moda e fundadora da Fenty Beauty.",
     "description": "Rihanna é uma talentosa cantora, empresária de moda e filantropa barbadiana. Além de sua carreira musical de sucesso, ela é fundadora da Fenty Beauty, uma linha de cosméticos celebrada por sua inclusão e diversidade.",
     "imageUrl": "",
@@ -727,4 +727,4 @@ export default [
       "imageSource": ""
     }
   }
-];
+];*/
