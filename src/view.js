@@ -1,19 +1,19 @@
 export const renderItems = (data) => {
-  //console.log(data)
+  // const cards = document.createElement('ul');
+  // cards.classList.add('cartaoUnitario');
 
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
   let result = '<ul>'
-  data.forEach(element => {
+  
+  data.forEach((element) => {
     result += `
     <li>
     <p>${element.name}</p>
     <img src= ${element.imageUrl} alt= "">
     <p>${element.description}</p> 
-    </li>n
-    `
+    </li>
+    `;
   })
-  result = result + '</ul>';
-
-  return result;
+  result = result + '</ul>'
+  return result
 };
 
