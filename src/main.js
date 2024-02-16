@@ -1,4 +1,4 @@
-import { filterData, sortData, computeStats } from './dataFunctions.js';
+//import { filterData, sortData, computeStats } from './dataFunctions.js';
 
 import { renderItems } from './view.js';
 
@@ -12,11 +12,16 @@ const filtroNacionalidade = document.getElementById('filtroNacionalidade');
 
 const ordenação = document.getElementById('filtroOrdem');
 
-const limparSeleções = document.getElementById('botãoLimpar');
+const limparSeleções = document.getElementById('botaoLimpar');
+
+//selectElement.addEventListener('change', (event) => {  });
+  
+
+
 
 limparSeleções.addEventListener('click', () => {
   listaCards.innerHTML = "";
   ordenação.innerHTML = "";
   filtroNacionalidade.innerHTML = "";
-  listaCards.appendChild(renderItems(data))
+  listaCards.innerHTML = renderItems(data)
 })
