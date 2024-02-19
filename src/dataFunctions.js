@@ -1,16 +1,21 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-filterData(data, filterBy, value) //dados - filtro - valor
+//dados - filtro - valor
+export const filterData = (data, filterBy, value) => {
+  const dadosFiltrados = data.filter(
+    (artista) => artista.facts.nacionalidade === value
+  );
+  return dadosFiltrados;
+}
 
-sortData(data, sortBy, sortOrder) // dados - ordenação - tipo asc/desc
+// dados - ordenação - tipo asc/desc
+export const sortData = (data, sortBy, sortOrder) => { 
+  return "sortData"
+}
 
-computeStats(data) // cálculos estatisticos básicos - esta função deve usar o método reduce.
+// cálculos estatisticos básicos - esta função deve usar o método reduce.
+export const computeStats = (data) => { 
+  return "computeStats"
+}
 
-export const example = () => {
-  return 'example';
-};
-
-export const anotherExample = () => {
-  return [];
-};
 
