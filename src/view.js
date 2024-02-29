@@ -4,9 +4,11 @@ export const renderItems = (data) => {
 
   let result = '<ul>'
   
+  // colocar "itemtype" na li
+
   data.forEach((element) => {
     result += `
-    <li>
+    <li class = "cardsUnitarios">
     <p>${element.name}</p>
     <img src= ${element.imageUrl} alt= "">
     <p>${element.description}</p> 
@@ -14,7 +16,7 @@ export const renderItems = (data) => {
     `;
   })
   result = result + '</ul>'
-  console.log(result)
+  //console.log(result)
   return result
   
 };
