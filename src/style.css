@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
+
 * {
     /* margin: ; */
     padding: 0;
@@ -68,3 +69,22 @@ ul {
 
     flex-direction: column;
 } 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-amarelo: FFCE22;
+  --color-azul: 054A91;
+}
+header  {
+  width: 100%;
+  background-color: var(--color-amarelo);
+}
+
+footer {
+  background-color: aqua;
+}
+

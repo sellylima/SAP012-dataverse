@@ -1,4 +1,5 @@
 export const renderItems = (data) => {
+
   // const cards = document.createElement('ul');
   // cards.classList.add('cartaoUnitario');
 
@@ -18,6 +19,3 @@ export const renderItems = (data) => {
   result = result + '</ul>'
   //console.log(result)
   return result
-  
-};
-
