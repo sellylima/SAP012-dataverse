@@ -9,8 +9,9 @@
 
 <body>
   <header>
-    <div class="conteúdoCabeçalho">
-      <img class="imagemTopo" src="imagens/celebCapa2.png" alt="Nome do site: Celebridades" />
+    <div>
+      <img src="imagens/celebCapa2.png" alt="Nome do site: Celebridades" />
+      <h1>algo no h1.</h1>
     </div>
   </header>
 
@@ -29,12 +30,12 @@
         <section class="painelInteratividade">
           <label for="filtroNacionalidade" id="selecionaNacionalidade" class="filtros">Nacionalidade:</label>
           <select id="filtroNacionalidade" name="nacionalidade" data-testid="select-filter">
-            <option id="todos" value="todos" selected="" hidden="" disabled="">
+            <option id="todosNacionalidade" value="todos" selected="" hidden="" disabled="">
               Selecione
             </option>
             <option value="Brasileira">Brasileira</option>
-            <option value="NorteAmericana">Norte-Americana</option>
-            <option value="Sulafricana">Sul-Africana</option>
+            <option value="Norte-Americana">Norte-Americana</option>
+            <option value="Sul-Africana">Sul-Africana</option>
             <option value="Barbadiana">Barbadiana</option>
             <option value="Suíça">Suíça</option>
             <option value="Britânica">Britânica</option>
@@ -66,9 +67,9 @@
           <!--repetir o exemplo para os outro filtros-->
 
           <!--sessão para ordenação-->
-          <label for="filtroOrdem" id="filtroOrdem" class="filtros">Ordenar por:</label>
+          <label for="filtroOrdem" id="selecionaOrdem" class="filtros">Ordenar por:</label>
           <select id="filtroOrdem" name="escolherOrdem" data-testid="select-sort">
-            <option id="todos" value="todos" selected="" hidden="" disabled="">
+            <option id="todosOrdem" value="todos" selected="" hidden="" disabled="">
               Selecione
             </option>
             <option value="asc">A - Z</option>
@@ -76,14 +77,9 @@
           </select>
 
           <!--criar botão de limpar-->
-          <button onclick="myFunction()" id="botaoLimpar" data-testid="button-clear">
+          <button id="botaoLimpar" data-testid="button-clear">
             Limpar
           </button>
-          <script>
-            function myFunction() {
-              document.getElementById("todos").selected = "true";
-            }
-          </script>
         </section>
       </div>
     </nav>
