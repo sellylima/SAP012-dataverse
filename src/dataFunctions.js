@@ -4,12 +4,10 @@
 //dados - filtro - valor
 export const filterData = (data, filterBy, value) => {
   //console.log(data)
-  const dadosFiltrados = data.filter(
-    (artista) => artista.facts[filterBy] === value
-  );
+  const dadosFiltrados = data.filter((artista) => artista.facts[filterBy] === value);
   //console.log(dadosFiltrados)
   return dadosFiltrados;
-}
+};
 
 // // dados - ordenação - tipo asc/desc
 // export const sortData = (data, sortBy, sortOrder) => {

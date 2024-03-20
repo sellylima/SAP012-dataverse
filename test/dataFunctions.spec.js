@@ -16,7 +16,3 @@ describe('testes da função sortData', () => {
 
 });
 
-describe('testes da função computeStats', () => {
-
- 
-});
