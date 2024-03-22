@@ -10,7 +10,7 @@ export const renderItems = (data) => {
   data.forEach((element) => {
     result += `
     <li class = "cardsUnitarios">
-    <p>${element.name}</p>
+    <h2>${element.name}</h2>
     <img src= ${element.imageUrl} alt= "">
     <p>${element.description}</p> 
     </li>

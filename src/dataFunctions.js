@@ -1,6 +1,5 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-//      fitro nacionalidade - funcionando
+// FILTRO NACIONALIDADE
 //dados - filtro - valor
 export const filterData = (data, filterBy, value) => {
   //console.log(data)
@@ -9,18 +8,8 @@ export const filterData = (data, filterBy, value) => {
   return dadosFiltrados;
 };
 
-// // dados - ordenação - tipo asc/desc
-// export const sortData = (data, sortBy, sortOrder) => {
-// //chamar a função aqui
-// data.sort(
-//  (a, b) => (a.name - b.name)-- -
-// );
-// return "sortData"
-// }
-
-
-//      fitro ordem - funcionando
-// // dados - ordenação - tipo asc/desc
+// FILTRO ORDENAÇÃO
+// dados - ordenação - tipo asc/desc
 export const sortData = (data, sortBy, sortOrder) => {
   //a função aceita três parametros - matriz, criterio e ordem da classificação
   return data.sort((a, b) => {

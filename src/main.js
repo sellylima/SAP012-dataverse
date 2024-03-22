@@ -1,4 +1,4 @@
-import { filterData, sortData } from "./dataFunctions.js"; //esta importando somente as funções desejadas??
+import { filterData, sortData } from "./dataFunctions.js";
 //, sortData, computeStats
 import { renderItems } from "./view.js";
 
@@ -6,9 +6,9 @@ import data from "./data/dataset.js"; // importando todo o conteudo??
 
 //console.log(example, renderItems(data), data);
 
-//      renderiza os cards pelo root/html
+//renderiza os cards pelo root/html
 const listaCards = document.querySelector("#root");
-let dadosRenderizados = data; // Variável para armazenar os dados renderizados
+const dadosRenderizados = data; // Variável para armazenar os dados renderizados
 
 const mostraCards = (dados) => {
   listaCards.innerHTML = renderItems(dados);
@@ -30,7 +30,7 @@ elementoSelect.addEventListener("change", (event) => {
 const filtroOrdem = document.querySelector("#filtroOrdem");
 
 filtroOrdem.addEventListener("change", (event) => {
-  const resultSortData = sortData(data, 'name', 'asc') 
+  const resultSortData = sortData(data, "name", event.target.value);
   mostraCards(resultSortData);
 });
 
@@ -39,7 +39,5 @@ const botaoLimpar = document.querySelector("#botaoLimpar");
 
 botaoLimpar.addEventListener("click", () => {
   listaCards.innerHTML = "";
- mostraCards(data);
+  mostraCards(data);
 });
-
-
