@@ -43,7 +43,7 @@ export default [
     description:
       "BTS é um grupo de K-pop sul-coreano que alcançou sucesso global com seu talento musical e carisma. Eles são reconhecidos por suas coreografias elaboradas, letras significativas e grande presença nas redes sociais, interagindo diretamente com os fãs.",
     imageUrl:
-      "https://www.otempo.com.br/image/contentid/policy:1.2890520:1687035842/image-BTS-Jimin-Jungkook-e-V-se-tornam-os-idolos-mais-bem-sucedidos-do-K-Pop.jpg?f=3x2&w=1224",
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8uaB1aSgVV54Exl6Tmdf33seJnTaTMv8AdH9hdAF0Ngw7WtW6",
     facts: {
       idade: "28",
       nacionalidade: "Sul-Coreana",
@@ -189,7 +189,7 @@ export default [
       "Cantora e compositora conhecida por seu estilo retrô e cinematográfico.",
     description:
       "Lana Del Rey é uma cantora e compositora americana que ganhou destaque com o álbum 'Born to Die'. Ela é reconhecida por sua estética vintage e letras melancólicas, embaladas por uma voz única e envolvente.",
-    imageUrl: "https://www.tribunaribeirao.com.br/site/wp-content/uploads/2022/12/lanadelreybr.jpg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrn1T4XvT-qramRJknhKjDckZHDWYxHdCtmhL6V1BnU4OiVV0",
     facts: {
       idade: "36",
       nacionalidade: "Norte-Americana",

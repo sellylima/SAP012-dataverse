@@ -2,7 +2,7 @@ import { filterData, sortData } from "./dataFunctions.js";
 //, sortData, computeStats
 import { renderItems } from "./view.js";
 
-import data from "./data/dataset.js"; // importando todo o conteudo??
+import data from "./data/dataset.js"; // importando todo o conteudo da pagina
 
 //console.log(example, renderItems(data), data);
 
