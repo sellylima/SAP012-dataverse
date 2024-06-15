@@ -77,7 +77,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 0 2rem;
 }
 
 .cardsUnitarios {
@@ -92,8 +91,12 @@ ul {
 }
 
 img {
-  width: 100%;
-  padding: 1.5rem;
+  object-fit: cover;
+  width: 270px;
+  height: 340px;
+  /* padding: 1.5rem; */
+  /* padding-left: 3rem; */
+  padding: 1.2rem 0 1.3rem 3rem;
 }
 
 h2 {
